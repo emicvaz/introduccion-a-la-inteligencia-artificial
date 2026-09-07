@@ -1,17 +1,18 @@
                     +--- (118 km) ---> [ Arad ] ---> (140 km) ---> [ Sibiu ] ---+---> (99 km) ---> [ Fagaras ] ---+
                     |                                                |          |                                 |
-	            |                                                |                                          (211 km)
+	            	|                                                |          |                              (211 km)
                     |                                             (80 km)       +---> (80 km) -> [ R. Vilcea ]    |
                     |                                                |                                 |          v
 [ Timisoara ] ------+                                                v                              (97 km)  [ Bucharest ]
                     |                                         [ Rimnicu Vilcea ]                       |          ^
                     |                                                |                                 |          |
-		    |						     |				       v        (101 km)
+		    		|						    			         v       						   v	   (101 km)
                     |                                             (146 km)                        [ Pitesti ] ----+
                     |                                                |                                 ^
                     |                                                v                                 |
                     +--- (111 km) ---> [ Lugoj ] ---> ... ---> [ Craiova ] ------- (138 km) -----------+
-					               +
+					                                   +
                                                        .
- 						       +
+ 						                               +
+											    ...  +  [Mehadia] + [Drobeta]
                                              (70 km) + (75 km) + (120 km)
