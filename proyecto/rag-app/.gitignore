@@ -1,0 +1,33 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+
+.env
+*.env.local
+
+
+chroma/
+
+# Caché y temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+
+.streamlit/secrets.toml
+
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+.vscode/
+.idea/
+*.swp
+*.swo
