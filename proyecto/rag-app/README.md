@@ -195,3 +195,5 @@ La aplicación web se abrirá automáticamente en: `http://localhost:8501`.
 * **Filtro selectivo por documento (`sources`):** La API (`POST /query`) y la interfaz en Streamlit admiten seleccionar una o varias leyes específicas para acotar la búsqueda semántica.
 * **Historial de conversación interactivo:** La sesión de Streamlit almacena las consultas anteriores con opción de borrado rápido mediante `st.session_state`.
 * **Semáforo de relevancia semántica:** La interfaz clasifica visualmente los chunks recuperados (Verde: $\ge 0.75$, Amarillo: $\ge 0.62$, Rojo: $< 0.62$).
+
+[![Proyecto RAG: Evidencia de funcionamiento](https://img.youtube.com/vi/KkIpVWMcsTw/mqdefault.jpg)](https://www.youtube.com/watch?v=KkIpVWMcsTw)
