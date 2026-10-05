@@ -1,14 +1,14 @@
 # Sistema RAG Normativo e Inmobiliario — Yucatán
 
-Sistema integral de **Generación Aumentada por Recuperación (RAG)** para la consulta de la legislación del Estado de Yucatán en materia inmobiliaria del estado de Yucatán, especificamente la ciudad de Mérida y zonas conurbadas.
+Sistema integral de **Generación Aumentada por Recuperación (RAG)** para la consulta de la legislación del Estado de Yucatán en materia inmobiliaria, especificamente la ciudad de Mérida y zonas conurbadas.
 
 ## Motivación
 
 La ciudad de Mérida está atravesando una de las etapas de mayor expansión urbana de su historia. Esto exige el cumplimiento de varias normas locales: desde autorizaciones y licencias, hasta la certeza registral ante el Instituto de Seguridad Patrimonial del Estado de Yucatán (INSEJUPY) y las obligaciones notariales.
 
-Ante este marco legal, los profesionales del sector inmobiliario enfrentan barreras de consulta técnica y una falta de asesoría jurídica de primer contacto. Los LLMs convencionales fallan en este ámbito ya que se entrenan principalmente con datos de internet y carecen de una "conciencia" geográfica sobre las normativas locales de cada jurisdicción, igualmente, tienden a inventar o alucinar articulados. Este sistema RAG nace para resolver esta problemática, ofreciendo un canal de consulta ágil y de alta fidelidad que responde con un sustento normativo los artículos y citaciones explícitas a las leyes de Yucatán (el corpus).
+Ante este marco legal, los profesionales del sector inmobiliario enfrentan barreras de consulta técnica y una falta de asesoría jurídica de primer contacto. Los Large Language Models (LLMs) convencionales fallan en este ámbito ya que se entrenan principalmente con datos de internet y carecen de una "conciencia" geográfica sobre las normativas locales de cada jurisdicción, igualmente, tienden a inventar o alucinar articulados. Este sistema RAG nace para resolver esta problemática, ofreciendo un canal de consulta ágil y de alta fidelidad que responde con un sustento normativo los artículos y citaciones explícitas a las leyes de Yucatán (el corpus).
 
-Desarrollado como proyecto final integrando desacoplamiento total cliente-servidor: interfaz web en **Streamlit**, API REST en **FastAPI**, base vectorial persistente en **ChromaDB**, y vectorización/generación con modelos de **Google AI (Gemini)**.
+El desarrollo del proyecto final se desacopla de la siguiente manera, cliente-servidor: interfaz web en **Streamlit**, API REST en **FastAPI**, base vectorial persistente en **ChromaDB**, y vectorización/generación con modelos de **Google AI (Gemini)**.
 
 ## 1. Arquitectura del Sistema
 
